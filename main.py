@@ -1,5 +1,3 @@
-import cv2
-import numpy as np
 import os
 from io import BytesIO
 
@@ -74,7 +72,6 @@ def merge_pdf(pdfs_path, target_pdf_path):
 
 
 if __name__ == '__main__':
-    # batch_convert(r"C:\Users\Administrator\Documents\绿色", r"C:\Users\Administrator\Documents\绿色\PDF")
-    # batch_convert(r"C:\Users\Administrator\Documents\红色", r"C:\Users\Administrator\Documents\红色\PDF")
-    merge_pdf(r"C:\Users\Administrator\Documents\绿色\PDF", r"C:\Users\Administrator\Documents\绿色\绿色.pdf")
-    merge_pdf(r"C:\Users\Administrator\Documents\红色\PDF", r"C:\Users\Administrator\Documents\红色\红色.pdf")
+    # batch_convert(r"", r"")
+    # merge_pdf(r"", "")
+    pass
